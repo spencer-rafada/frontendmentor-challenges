@@ -6,4 +6,6 @@ Each of the folders are challenges from frontendmentor.io. Feel free to read the
 
 ## Challenges
 
-[QR Code Component Main](https://spencer-rafada.github.io/frontendmentor-challenges/qr-code-component-main/)
+### Easy
+
+[QR Code Component Main](https://spencer-rafada.github.io/frontendmentor-challenges/qr-code-component-main/) - Completed 11/30/22
