@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+main {
+  background-color: hsl(30deg, 38%, 92%);
+  max-width: 1440px;
+  height: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prodcard {
+  width: 650px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 10px;
+}
+
+.prodcard__img {
+  max-width: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.prodcard-info {
+  font-family: "Monsterrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 20px;
+}
+
+.prodcard-info__title {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 0.9;
+}
+
+.prodcard-info__category {
+  font-family: "Monsterrat", sans-serif;
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */
