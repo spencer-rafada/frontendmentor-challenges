@@ -25,20 +25,61 @@ main {
 }
 
 .prodcard-info {
-  font-family: "Monsterrat", sans-serif;
+  color: hsl(228deg, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 14px;
-  padding: 20px;
+  padding: 40px;
 }
 
 .prodcard-info__title {
+  color: hsl(212deg, 21%, 14%);
   font-family: "Fraunces", sans-serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 20px;
   line-height: 0.9;
 }
 
-.prodcard-info__category {
-  font-family: "Monsterrat", sans-serif;
+.prodcard-info__title h1 {
+  margin-top: 25px;
+}
+
+.prodcard-info__category p {
+  text-transform: uppercase;
+  letter-spacing: 5px;
   font-weight: 500;
+  margin-top: 0;
+}
+
+.prodcard-info__body p {
+  line-height: 1.6em;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.prodcard-info__price {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.prodcard-info__price-discount {
+  color: hsl(158deg, 36%, 37%);
+  font-family: "Fraunces", sans-serif;
+  font-size: 35px;
+  margin: 0 auto;
+}
+
+.prodcard-info__price-original {
+  text-decoration: line-through;
+}
+
+.prodcard-info__button {
+  margin-top: 23px;
+  text-align: center;
+  display: block;
+  background-color: hsl(158deg, 36%, 37%);
+  padding: 15px;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
