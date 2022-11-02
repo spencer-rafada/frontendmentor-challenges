@@ -8,4 +8,5 @@ Each of the folders are challenges from frontendmentor.io. Feel free to read the
 
 ### Easy
 
-[QR Code Component Main](https://spencer-rafada.github.io/frontendmentor-challenges/qr-code-component-main/) - Completed 11/30/22
+[QR Code Component Main](https://spencer-rafada.github.io/frontendmentor-challenges/qr-code-component-main/) - Started 11/30/22 - Completed 11/30/22
+[Product Preview Card Main](https://spencer-rafada.github.io/frontendmentor-challenges/product-preview-card-component-main/) - Started 11/30/22 - Completed 11/1/22
