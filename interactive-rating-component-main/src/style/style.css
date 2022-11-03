@@ -1,1 +1,13 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.ratings {
+  width: 700px;
+  background: linear-gradient(180deg, hsl(213deg, 19%, 18%), hsl(216deg, 12%, 8%));
+  border-radius: 40px;
+}/*# sourceMappingURL=style.css.map */
