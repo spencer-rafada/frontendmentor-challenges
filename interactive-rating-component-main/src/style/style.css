@@ -10,4 +10,38 @@
   width: 700px;
   background: linear-gradient(180deg, hsl(213deg, 19%, 18%), hsl(216deg, 12%, 8%));
   border-radius: 40px;
+  font-family: "Overpass", sans-serif;
+  color: hsl(217deg, 12%, 63%);
+}
+.ratings .ratings__rating {
+  padding: 20px;
+}
+.ratings .ratings__title {
+  color: hsl(0deg, 0%, 100%);
+}
+.ratings .ratings__star {
+  background-color: red;
+  display: inline;
+  padding: 10px;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.ratings .ratings__form__button {
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(25deg, 97%, 53%);
+  width: 100%;
+  height: 30px;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 20px;
+  letter-spacing: 5px;
+}
+.ratings .ratings__form__button:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+  cursor: pointer;
+}
+.ratings .ratings__form__input {
+  background-color: hsl(216deg, 12%, 54%);
 }/*# sourceMappingURL=style.css.map */

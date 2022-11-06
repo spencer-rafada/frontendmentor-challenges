@@ -18,4 +18,39 @@ $very-dark-blue: hsl(216, 12%, 8%);
   width: 700px;
   background: linear-gradient(180deg, $dark-blue, $very-dark-blue);
   border-radius: 40px;
+  font-family: 'Overpass', sans-serif;
+  color: $light-grey;
+  .ratings__rating {
+    padding: 20px;
+  }
+  .ratings__title {
+    color: $white;
+  }
+  .ratings__star {
+    background-color: red;
+    display: inline;
+    padding: 10px;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ratings__form__button {
+    color: $white;
+    background-color: $orange;
+    width: 100%;
+    height: 30px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 20px;
+    letter-spacing: 5px;
+  }
+  .ratings__form__button:hover {
+    background-color: $white;
+    color: $orange;
+    cursor: pointer;
+  }
+  .ratings__form__input {
+    background-color: $medium-grey;
+  }
 }
