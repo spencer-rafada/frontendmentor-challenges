@@ -5,6 +5,8 @@ import ThankYou from "./components/ThankYou";
 
 function App() {
   const [state, setState] = useState("ratings");
+  const [rating, setRating] = useState();
+  const ratings = [1, 2, 3, 4, 5];
 
   const handleSubmitPressed = () => {
     if (state === "ratings") {
@@ -14,12 +16,22 @@ function App() {
     }
     console.log(state);
   };
+
+  const ratingButtonPressed = (e) => {
+    setRating(e.target.value);
+    console.log(e.target.value);
+  };
   return (
     <div className="background">
       {state === "ratings" && (
-        <Ratings onClick={handleSubmitPressed} state={state} />
+        <Ratings
+          submitClick={handleSubmitPressed}
+          ratings={ratings}
+          ratingClick={ratingButtonPressed}
+          rating={rating}
+        />
       )}
-      {state === "thanks" && <ThankYou />}
+      {state === "thanks" && <ThankYou rating={rating} />}
     </div>
   );
 }

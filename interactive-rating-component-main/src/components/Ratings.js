@@ -1,7 +1,7 @@
 import React from "react";
 import star from "../images/icon-star.svg";
 
-export default function Ratings({ state, onClick }) {
+export default function Ratings({ submitClick, ratings, ratingClick, rating }) {
   return (
     <div className="ratings">
       <div className="ratings__rating">
@@ -20,8 +20,22 @@ export default function Ratings({ state, onClick }) {
         </div>
         <div className="ratings__form">
           {/* TODO change this to a form */}
-          <div className="ratings__form__input">1 2 3 4 5</div>
-          <button className="ratings__form__button" onClick={onClick}>
+          <div className="ratings__form__input">
+            {ratings.map((value, index) => {
+              return (
+                <button
+                  type="button"
+                  className="ratings__form__input-value"
+                  onClick={(value) => ratingClick(value)}
+                  key={index}
+                  value={value}
+                >
+                  {value}
+                </button>
+              );
+            })}
+          </div>
+          <button className="ratings__form__button" onClick={submitClick}>
             Submit
           </button>
         </div>

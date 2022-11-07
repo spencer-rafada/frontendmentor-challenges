@@ -6,6 +6,7 @@ $light-grey: hsl(217, 12%, 63%);
 $medium-grey: hsl(216, 12%, 54%);
 $dark-blue: hsl(213, 19%, 18%);
 $very-dark-blue: hsl(216, 12%, 8%);
+$mobile: 375px;
 
 .background { 
   display: flex;
@@ -61,8 +62,33 @@ $very-dark-blue: hsl(216, 12%, 8%);
     color: $orange;
     cursor: pointer;
   }
+
+  .ratings__body {
+    p {
+      margin-bottom: 0;
+    }
+  }
   .ratings__form__input {
-    background-color: $medium-grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .ratings__form__input-value {
+      color: $light-grey;
+      border-radius: 35px;
+      font-size: 20px;
+      border: 0;
+      padding: 15px;
+      background-color: $dark-blue;
+    }
+
+    .ratings__form__input-value:hover {
+      color: $white;
+      cursor: pointer;
+      background-color: $light-grey;
+    }
   }
 
   // Thank you
@@ -85,6 +111,21 @@ $very-dark-blue: hsl(216, 12%, 8%);
         padding-right: 20px;
         border-radius: 25px;
       }
+    }
+  }
+}
+
+@media (max-width: $mobile) {
+  .background {
+    width: 100%;
+    padding: 20px;
+  }
+  .ratings {
+    width: 100%;
+    border-radius: 10px;
+    line-height: 1.8;
+    .ratings__rating {
+      padding: 25px;
     }
   }
 }
