@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/frontendmentor-challenges/static/css/main.40a020f8.css",
+    "main.js": "/frontendmentor-challenges/static/js/main.78eb63d4.js",
+    "static/media/illustration-thank-you.svg": "/frontendmentor-challenges/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
+    "index.html": "/frontendmentor-challenges/index.html",
+    "static/media/icon-star.svg": "/frontendmentor-challenges/static/media/icon-star.12766a8d207af861a70f92500634c8be.svg",
+    "main.40a020f8.css.map": "/frontendmentor-challenges/static/css/main.40a020f8.css.map",
+    "main.78eb63d4.js.map": "/frontendmentor-challenges/static/js/main.78eb63d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40a020f8.css",
+    "static/js/main.78eb63d4.js"
+  ]
+}
