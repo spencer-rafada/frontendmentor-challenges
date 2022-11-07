@@ -3,39 +3,50 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: rgb(19, 16, 16);
+  height: 1000px;
+  width: 1440px;
 }
 
 .ratings {
-  width: 700px;
-  background: linear-gradient(180deg, hsl(213deg, 19%, 18%), hsl(216deg, 12%, 8%));
+  width: 420px;
+  background: radial-gradient(circle at top, hsl(213deg, 19%, 18%), hsl(216deg, 12%, 8%));
   border-radius: 40px;
   font-family: "Overpass", sans-serif;
   color: hsl(217deg, 12%, 63%);
+  font-size: 15px;
 }
 .ratings .ratings__rating {
-  padding: 20px;
+  padding: 40px;
 }
 .ratings .ratings__title {
+  margin-top: 40px;
   color: hsl(0deg, 0%, 100%);
 }
+.ratings .ratings__title h1 {
+  font-weight: 700;
+  margin-bottom: 0px;
+}
 .ratings .ratings__star {
-  background-color: red;
-  display: inline;
+  background-color: hsl(213deg, 19%, 18%);
+  display: block;
   padding: 10px;
   border-radius: 40px;
-  justify-content: center;
-  align-items: center;
+  width: 20px;
+  height: 20px;
+}
+.ratings .ratings__star img {
+  width: 100%;
 }
 .ratings .ratings__form__button {
   color: hsl(0deg, 0%, 100%);
   background-color: hsl(25deg, 97%, 53%);
   width: 100%;
-  height: 30px;
   text-transform: uppercase;
   border: 0;
-  border-radius: 20px;
+  border-radius: 36px;
   letter-spacing: 5px;
+  padding: 18px;
 }
 .ratings .ratings__form__button:hover {
   background-color: hsl(0deg, 0%, 100%);
@@ -44,4 +55,25 @@
 }
 .ratings .ratings__form__input {
   background-color: hsl(216deg, 12%, 54%);
+}
+.ratings .ratings__thankyou {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.ratings .ratings__thankyou .ratings__thankyou__img {
+  display: inline;
+}
+.ratings .ratings__thankyou .ratings__score {
+  margin: 30px;
+}
+.ratings .ratings__thankyou .ratings__score p {
+  display: inline;
+  background-color: hsl(213deg, 19%, 18%);
+  color: hsl(25deg, 97%, 53%);
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25px;
 }/*# sourceMappingURL=style.css.map */
