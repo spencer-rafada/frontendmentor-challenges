@@ -21,6 +21,11 @@ The challenges are hosted in different repositories on my GitHub, but this repos
   - [Code](https://spencer-rafada.github.io/interactive-rating-component-main/) 
   - Started 11/1/22 - Completed 11/7/22
 
+- NFT Preview Card Component
+  - [Live Site](https://spencer-rafada.github.io/nft-preview-card-component/)
+  - [Code](https://github.com/spencer-rafada/nft-preview-card-component)
+  - Started 11/8/22 - 11/10/22
+
 ## Acknowledgement
 
 I acknowledge my fiancee, Hana Ko, my family: mama, papa, and Mikee, who I believe always got my back.
