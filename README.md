@@ -26,6 +26,11 @@ The challenges are hosted in different repositories on my GitHub, but this repos
   - [Code](https://github.com/spencer-rafada/nft-preview-card-component)
   - Started 11/8/22 - 11/10/22
 
+- Order Summary Component
+  - [Live Site](https://spencer-rafada.github.io/order-summary-component/)
+  - [Code](https://github.com/spencer-rafada/order-summary-component)
+  - Started 11/15/22 - 11/17/22
+
 ## Acknowledgement
 
 I acknowledge my fiancee, Hana Ko, my family: mama, papa, and Mikee, who I believe always got my back.
