@@ -34,6 +34,7 @@ The challenges are hosted in different repositories on my GitHub, but this repos
 - Advice Generator
   - [Live Site](https://spencer-rafada.github.io/advice-generator/)
   -[Code](https://github.com/spencer-rafada/advice-generator)
+  - Started 11/23/22 - 11/25/22
 
 ## Acknowledgement
 
